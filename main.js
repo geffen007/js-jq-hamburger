@@ -1,7 +1,7 @@
-$('a .fa-bars').click(function(){
+$('.header-right > a').click(function(){
     $('.hamburger-menu').fadeIn("slow");
 })
 
-$('.header-right > a').click(function(){
+$('.close').click(function(){
     $('.hamburger-menu').fadeOut("slow");
 })
